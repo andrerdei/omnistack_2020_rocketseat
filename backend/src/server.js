@@ -1,12 +1,12 @@
 // Declarando Variáveis Globais (require)
 
 const express = require('express')
-const app = express()
-
 const routes = require('./routes')
 
+const app = express()
 
-// Configurando Arquivos "use"
+
+// Configurando Arquivos (use)
 
 app.use(express.json()) // Configurando Recebimento de Arquivos JSON pelo Corpo das Requisições
 app.use(routes)
