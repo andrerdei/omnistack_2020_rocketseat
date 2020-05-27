@@ -41,11 +41,11 @@
 
 .register-container .content section {
     width: 100%;
-    max-width: 300px; 
+    max-width: 400px; 
 }
 
 .register-container .content section h1 {
-    margin: 64px 0 32px;
+    margin: 36px 0 22px;
     font-size: 32px;
 }
 
@@ -62,7 +62,7 @@
 }
 
 .register-container .content form input {
-    margin-top: 8px;
+    margin-top: 12px;
 }
 
 .register-container .content form .input-group {

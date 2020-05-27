@@ -1,0 +1,99 @@
+/* Estilo da Página Profile */
+
+
+/* profile-container */
+
+.profile-container {
+    width: 100%;
+    max-width: 1180px;
+    margin: 32px auto;
+}
+
+.profile-container > *{
+    margin: 3%;
+}
+
+
+/* header */
+
+.profile-container header {
+    display: flex;
+    align-items: center;
+}
+
+.profile-container header span {
+    font-size: 20px;
+    margin-left: 24px;
+}
+
+.profile-container header img {
+   height: 64px;
+}
+
+.profile-container header a {
+    width: 260px;
+    margin-left: auto;
+    margin-top: 0;
+}
+
+.profile-container header button {
+    height: 60px;
+    width: 60px;
+    border-radius: 4px;
+    border: 1px solid #dcdce6;
+    background-color: transparent;
+    margin-left: 16px;
+    transition: .2s;
+}
+
+.profile-container header button:hover {
+    border-color: #999;
+}
+
+/* casos-cadastrados */
+
+.profile-container .casos-cadastrados h1 {
+    margin-bottom: 24px;
+}
+
+.profile-container .casos-cadastrados ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+}
+
+.profile-container .casos-cadastrados li {
+    background-color: #FFF;
+    padding: 24px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.profile-container .casos-cadastrados li button {
+    background-color: #FFF;
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    border: 0;
+    transition: .1s;
+}
+
+.profile-container .casos-cadastrados li button:hover {
+    opacity: .7;
+}
+
+.profile-container .casos-cadastrados li strong {
+    display: block;
+    margin-bottom: 16px;
+    color: #41414d;
+}
+
+.profile-container .casos-cadastrados li p + strong {
+    margin-top: 32px;
+}
+
+.profile-container .casos-cadastrados li p {
+    color: 737380;
+    line-height: 21px;
+    font-size: 16px;
+}
