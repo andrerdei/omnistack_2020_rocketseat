@@ -1,4 +1,7 @@
-/* Logon Basic Styles */
+/* Estilo da Página Logon */
+
+
+/* logon-container */
 
 .logon-container {
     width: 100%;
@@ -16,6 +19,9 @@
     margin: 3%;
 }
 
+
+/* section-form */
+
 .logon-container .section-form {
     width: 100%;
     max-width: 350px;
@@ -30,24 +36,8 @@
     margin-bottom: 32px;
 }
 
-.logon-container .section-form a {
-    display: flex;
-    align-items: center;
-    margin-top: 40px;
-    color: #41414d;
-    font-size: 18px;
-    text-decoration: none;
-    font-weight: 500;
-    transition: .2s;
-}
 
-.logon-container .section-form a:hover{
-    opacity: .8;
-}
-
-.logon-container .section-form a svg{
-    margin-right: 8px;
-}
+/* section-img */
 
 .logon-container .section-img {
     max-width: 80%;
