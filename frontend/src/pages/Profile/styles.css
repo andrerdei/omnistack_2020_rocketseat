@@ -11,14 +11,21 @@
 
 .profile-container > *{
     margin: 3%;
+
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
 /* header */
 
 .profile-container header {
-    display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.profile-container header > *{
+    margin: 0 3% 5% 0;
 }
 
 .profile-container header span {
@@ -51,6 +58,10 @@
 }
 
 /* casos-cadastrados */
+
+.profile-container .casos-cadastrados {
+    flex-direction: column;
+}
 
 .profile-container .casos-cadastrados h1 {
     margin-bottom: 24px;
