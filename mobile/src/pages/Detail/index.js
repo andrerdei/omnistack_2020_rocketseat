@@ -2,8 +2,10 @@ import React from 'react'
 
 import {View} from 'react-native'
 
-export default function Detail() {
+import logoImg from '../../assets/logo.png'
+
+export default function Incidents() {
     return(
-        <View /> 
+        <View />
     )
 }
