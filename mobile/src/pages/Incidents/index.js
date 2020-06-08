@@ -14,7 +14,6 @@ export default function Incidents() {
         navigation.navigate('Detail')
     }
 
-
     return(
         <View style={styles.container}>
 
@@ -59,6 +58,7 @@ export default function Incidents() {
                     )
                 }}
             />
+            
         </View>
     )
 }
