@@ -1,5 +1,5 @@
 import 'intl'
-import 'intl/locale-data/json/pt-BR'
+import 'intl/locale-data/jsonp/pt-BR'
 
 import React from 'react'
 
