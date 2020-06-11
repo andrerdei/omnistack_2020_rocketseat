@@ -7,11 +7,18 @@ const connection = require('../database/connection')
 // Exportando Módulo Com os Controllers
 
 module.exports = {
+
+/*
+
+// Busca Todas as Informações das Ongs Cadastradas 
+
     async index(req, res) {
         const ongs = await connection('ongs').select('*')
 
         return res.json(ongs)
     },
+
+*/
 
     async create(req, res) {
         const {name, email, whatsapp, city, uf} = req.body
